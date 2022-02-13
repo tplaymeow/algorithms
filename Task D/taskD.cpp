@@ -6,7 +6,7 @@ int main() {
     int a, b, c, d, k;
     cin >> a >> b >> c >> d >> k;
 
-    while (true) {
+    while (int i = 0; i < k; i++) {
         int new_a = (a * b) - c;
         if (new_a <= 0) { cout << 0; return 0; }
         if (new_a >= d) { cout << d; return 0; }
