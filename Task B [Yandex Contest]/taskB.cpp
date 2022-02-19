@@ -79,7 +79,7 @@ int main() {
     sort(trap_to_animal.begin(), trap_to_animal.end());
     
     cout << "Possible" << "\n";
-    for (auto pair: trap_to_animal) cout << pair.second + 1<< " ";
+    for (auto pair: trap_to_animal) cout << pair.second + 1 << " ";
     
     return 0;
 }
