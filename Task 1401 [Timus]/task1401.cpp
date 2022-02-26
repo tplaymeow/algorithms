@@ -86,7 +86,7 @@ std::vector<std::vector<int>> get_matrix(int size_pow, int empty_field_x,
 int main() {
     int n, x, y;
     std::cin >> n;
-    std::cin >> x >> y;
+    std::cin >> y >> x;
 
     for (auto &line : get_matrix(n, x - 1, y - 1)) {
         for (auto &el : line)
