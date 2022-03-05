@@ -9,3 +9,4 @@ add_executable(task1401 "Task 1401 [Timus]/task1401.cpp")
 
 add_executable(taskE "Task E [Yandex Contest]/taskE.cpp")
 add_executable(taskF "Task F [Yandex Contest]/taskF.cpp")
+add_executable(taskH "Task H [Yandex Contest]/taskH.cpp")
